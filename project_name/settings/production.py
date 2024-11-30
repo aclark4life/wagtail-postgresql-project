@@ -1,8 +1,8 @@
-from .base import *  # noqa: F403
+from .base import *
 
 DEBUG = False
 
 try:
-    from .local import *  # noqa: F403
+    from .local import *
 except ImportError:
     pass
